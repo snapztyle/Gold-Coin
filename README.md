@@ -1,38 +1,36 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/WeBankBlockchain/SmartDev-Contract/total.svg)](https://github.com/WeBankBlockchain/SmartDev-Contract)
 
 
-# 组件介绍
+# Component introduction
 
-智能合约库模板，涵盖了从基础类型到上层业务的常见代码，用户可根据实际需要进行参考、复用。
+The smart contract library template covers common codes from basic types to upper-level business, and users can refer to and reuse them according to actual needs.
 
 [](https://toolkit-doc.readthedocs.io/zh_CN/latest/_images/wescott.png)
 
-## 环境要求
+## Environmental requirements
 
-| 依赖软件 | 说明 |备注|
+| Dependent software | Description |Remark|
 | --- | --- | --- |
 | Solidity | 0.4.25 | |
-| Git | 下载需要使用Git | |
+| Git | Download requires Git | |
 
-## 文档
-- [**中文**](https://toolkit-doc.readthedocs.io/zh_CN/latest/docs/WeBankBlockchain-SmartDev-Contract/index.html)
-- [**快速开始**](https://toolkit-doc.readthedocs.io/zh_CN/latest/docs/WeBankBlockchain-SmartDev-Contract/quick_start.html)
-## 贡献代码
-欢迎参与本项目的社区建设：
-- 如项目对您有帮助，欢迎点亮我们的小星星(点击项目左上方Star按钮)。
-- 欢迎提交代码(Pull requests)。
-- [提问和提交BUG](https://github.com/WeBankBlockchain/SmartDev-Contract/issues)。
-- 如果发现代码存在安全漏洞，请在[这里](https://security.webank.com)上报。
+## Documentation
+- [**Chinese**](https://toolkit-doc.readthedocs.io/zh_CN/latest/docs/WeBankBlockchain-SmartDev-Contract/index.html)
+- [**Quick start**](https://toolkit-doc.readthedocs.io/zh_CN/latest/docs/WeBankBlockchain-SmartDev-Contract/quick_start.html)
+## Contribute code
+Welcome to participate in the community construction of this project:
+- If the project is helpful to you, welcome to light up our little star (click the Star button at the top left of the project).
+- Welcome to submit code(Pull requests)。
 
 
 ![](https://media.githubusercontent.com/media/FISCO-BCOS/LargeFiles/master/images/QR_image.png)
 
-## 合约征集令
- 为了覆盖和满足日益丰富的开发者和行业的诉求，现面向广大爱好区块链开发者、合作伙伴发布智能合约代码征集令。
+## Solicitation of contract
+ In order to cover and meet the demands of increasingly rich developers and industries, the smart contract code solicitation order is now issued to the majority of blockchain-loving developers and partners.
  
- 本次活动基于Solidity语言征集智能合约代码。**版本范围：0.4.25-0.6.10** 。
+ This event is based on the Solidity language soliciting smart contract codes. **Version range: 0.4.25-0.6.10**.
 
-为了便于参与，我们拟定了部分任务列表（如下表所示），每位参与者可以选择自己感兴趣的任务进行领取并开发，也可以基于具体的业务场景作为开发任务，原则上不做代码功能的限定。同时，由于每一个任务为概述性的描述，包含的内容较多，所以每个任务可由多位参与者领取。
+In order to facilitate participation, we have drawn up a partial task list (as shown in the table below). Each participant can choose the task he or she is interested in to receive and develop, or it can be a development task based on a specific business scenario. In principle, no code function is required. The limit. At the same time, since each task is an overview description and contains more content, each task can be picked up by multiple participants.
 
 |任务ID	| 任务类别| 任务名称	| 任务描述|
 | --- | --- | --- | --- |
