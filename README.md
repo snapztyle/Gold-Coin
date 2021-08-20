@@ -32,36 +32,36 @@ Welcome to participate in the community construction of this project:
 
 In order to facilitate participation, we have drawn up a partial task list (as shown in the table below). Each participant can choose the task he or she is interested in to receive and develop, or it can be a development task based on a specific business scenario. In principle, no code function is required. The limit. At the same time, since each task is an overview description and contains more content, each task can be picked up by multiple participants.
 
-|任务ID	| 任务类别| 任务名称	| 任务描述|
+|Task ID	| Task category| Task name	| Task description|
 | --- | --- | --- | --- |
-|1 |   原有合约功能	| 原有合约库优化和增强	|针对智能合约库中现有合约的功能进行补充和增强，如针对不同数据类型，提供数组、字符串、地址、数学计算等操作。|
-|2 |   原有合约功能	| 浮点数、定点数	|solidity本身没有相关支持，需要允许指定精度、四则运算等功能。|
-|3 |   原有合约功能	| 数学运算增强	|提供开方、指数、对数等运算。|
-|4 |   原有合约功能	| 位操作	|提供各种位操作，例如取整数最左或最右的1等。|
-|5	|   新增数据结构	| 二维数组	|可针对不同数据类型，提供二位数组的增、删、改、查、遍历、是否存在等操作。|
-|6	|	新增数据结构	| 集合	       | 可针对不同数据类型，提供集合（Set）的创建、增、删、改、查、遍历及是否存在等操作。|
-|7	|	新增内置函数	| 内置函数	|基于block、msg、tx等内置函数提供对应的功能|
-|8	|	新增内置函数	| 时间操作	|提供年月日时间计算、转化和查询功能|
-|9 |   新增功能模块	| 计数器操作 | 提供基于solidity的计数器功能|
-|10 |  	新增功能模块	| 隐私计算	|提供隐私计算相关的合约，例如零知识证明等|
-|11 |  	新增功能模块	| 匿名投票	|实现匿名投票，在投票期间各票信息以密文形式上链，在投票结束后才公开|
-|12 |  	新增功能模块	| 代理执行	|一个代理合约，主要包含添加待执行函数与过期时间、函数执行 等接口|
-|13 |  	新增功能模块	| 权限操作	|提供权限的创建、分配、取消等功能|
-|14 |  	新增功能模块	| 多方签名	|提供一个抽象层面的多方签名功能，可以应用于多方认证的场景|
-|15 |  	新增功能模块	| 多方投票	|提供多方投票功能，投票策略可多样化|
-|16 |  	新增功能模块	| 黑白名单	|提供黑白名单的创建、查询、遍历、新增及删除等功能|
-|17 |   新增场景	| 商品溯源	|可针对商品溯源的全生命周期或其中的某项环节，提供智能合约的相关解决方案案例。|
-|18 |  	新增场景	| 版权保护	|包括但不限于文化、专利、艺术品、数字内容的确权、鉴权等方案。|
-|19 |  	新增场景	| 金融	   |对于供应链金融、征信、反洗钱等金融场景，提供相关的智能合约通用化模板。|
-|20 |  	新增场景	| 慈善公益	|基于慈善公益，提供但不限于善款追溯、善行激励等场景的使用场景|
-|21 |  	新增场景	| 档案管理	|提供档案管理相关的功能实现，包括但不限于个人简历、学历证明、荣誉证明等使用场景|
-|22 |  	新增场景	| 共享经济	|针对共享经济中的痛点，提供区块链的解决方案，例如租房、图书共享等使用场景。|
+|1 |   Original contract function	| Optimization and enhancement of the original contract library	|Supplement and enhance the functions of existing contracts in the smart contract library, such as providing arrays, strings, addresses, mathematical calculations and other operations for different data types.|
+|2 |   Original contract function	| Floating point, fixed point	|Solidity itself has no relevant support, and needs to allow functions such as specified precision and four arithmetic operations.|
+|3 |   Original contract function	| Math enhancement	|Provide square root, exponent, logarithm and other operations.|
+|4 |   Original contract function	| Bit manipulation	|Provides various bit operations, such as taking the leftmost or rightmost 1 of an integer, etc.|
+|5	|   New data structure	| Two-dimensional array	|For different data types, it provides operations such as adding, deleting, modifying, checking, traversing, and existence of a two-digit array.|
+|6	|	New data structure	| Collection	       | For different data types, it provides operations such as creation, addition, deletion, modification, search, traversal, and existence of a set (Set).|
+|7	|	New built-in functions	| Built-in function	|Provide corresponding functions based on built-in functions such as block, msg, tx, etc.|
+|8	|	New built-in functions	| Time operation	|Provide year, month and day time calculation, conversion and query functions|
+|9 |   New function module	| Counter operation | Provide counter function based on solidity|
+|10 |  	New function module	| Privacy computing	|Provide contracts related to privacy calculations, such as zero-knowledge proofs, etc.|
+|11 |  	New function module	| Anonymous voting	|Anonymous voting is realized. During the voting period, the information of each vote is on the chain in ciphertext, and it will be made public after the voting ends.|
+|12 |  	New function module	| Agent execution	|A proxy contract, which mainly includes interfaces for adding functions to be executed, expiration time, function execution, etc.|
+|13 |  	New function module	| Permission operation	|Provide functions such as creating, assigning, and canceling permissions|
+|14 |  	New function module	| Multi-signature	|Provides an abstract level of multi-party signature function, which can be applied to multi-party authentication scenarios|
+|15 |  	New function module	| Multi-party voting	|Provide multi-party voting function, voting strategies can be diversified|
+|16 |  	New function module	| Black and white list	|Provides the creation, query, traversal, addition and deletion of black and white lists|
+|17 |   New scene	| Commodity traceability	|It can provide related solution cases of smart contracts for the whole life cycle of commodity traceability or one of the links.|
+|18 |  	New scene	| Copyright protection	|Including but not limited to cultural, patent, artwork, digital content confirmation, authentication and other programs.|
+|19 |  	New scene	| Finance	   |For financial scenarios such as supply chain finance, credit investigation, and anti-money laundering, provide relevant smart contract generalized templates.|
+|20 |  	New scene	| Charity	|Based on charity and public welfare, provide but not limited to use scenarios such as traceability of donations, incentives for good deeds, etc.|
+|21 |  	New scene	| File management	|Provides the realization of functions related to file management, including but not limited to use scenarios such as personal resume, academic certificate, honor certificate, etc.|
+|22 |  	New scene	| Sharing economy	|Aiming at the pain points in the sharing economy, provide blockchain solutions, such as renting houses, book sharing and other usage scenarios.|
 
 
 ## License
 ![license](http://img.shields.io/badge/license-Apache%20v2-blue.svg)
 
-开源协议为[Apache License 2.0](http://www.apache.org/licenses/). 详情参考[LICENSE](../LICENSE)。
+The open source agreement is[Apache License 2.0](http://www.apache.org/licenses/). For details[LICENSE](../LICENSE)。
 
 
 
